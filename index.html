@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Study Guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <!-- bootstrap -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Lala's Coding Journal</h1>
+    </header>
+    <div class="notebook-container">
+      <div class="div-1 links" id="back-cover" data-notes="back-cover-open">Close</div>
+      <div class="div-3 " >
+        <div class="cover" id="cover-img">
+          <div class="cover-style">
+            <div class="black-spine" id="black-col"></div>
+            <div class="white-rectangle">Notebook</div>
+          </div>
+        </div>
+        <div id="html-notes" class="notes">
+          <h2>HTML Notes</h2>
+        </div>
+        <div id="css-notes" class="notes">
+          <h2>CSS Notes</h2>
+        </div>
+        <div id="js-notes" class="notes">
+          <h2>JAVASCRIPT Notes</h2>
+        </div>
+      </div>
+      <div class="div-4">
+        <div class="white-pages">
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+          <div class="vertical-line"></div>
+        </div>
+        <div class="tabs">
+          <ul id="nav-tab" class="nav">
+            <li class="links" id="html-link" data-notes="html-notes"><a href="#html">HTML</a></li><br>
+            <li class="links" id="css-link" data-notes="css-notes"><a href="#css">CSS</a></li><br>
+            <li class="links" id="js-link" data-notes="js-notes"><a href="#js">JavaScript</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="div-5"></div>
+    </div>
+  </div>
+</body>
